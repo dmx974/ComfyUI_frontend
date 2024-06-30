@@ -19,6 +19,7 @@
     "@playwright/test": "^1.44.1",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.8",
+    "@vitejs/plugin-react-swc": "^3.7.0",
     "babel-plugin-transform-import-meta": "^2.2.1",
     "babel-plugin-transform-rename-import": "^2.3.0",
     "identity-obj-proxy": "^3.0.0",

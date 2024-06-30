@@ -8,6 +8,7 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
+    "jsx": "react-jsx",
 
     /* Linting */
     "strict": false,

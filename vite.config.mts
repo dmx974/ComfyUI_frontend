@@ -1,5 +1,6 @@
 import { defineConfig, Plugin } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy'
+import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 const IS_DEV = process.env.NODE_ENV === 'development';
@@ -97,6 +98,7 @@ export default defineConfig({
 		}
 	},
 	plugins: [
+		react(),
 		comfyAPIPlugin(),
 		viteStaticCopy({
 			targets: [
