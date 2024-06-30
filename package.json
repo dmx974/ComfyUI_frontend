@@ -33,7 +33,12 @@
     "zip-dir": "^2.0.0"
   },
   "dependencies": {
+    "@lobehub/ui": "^1.146.2",
+    "antd": "^5.18.3",
+    "antd-style": "^3.6.2",
     "dotenv": "^16.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "zod": "^3.23.8",
     "zod-validation-error": "^3.3.0"
   }
